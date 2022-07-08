@@ -16,5 +16,17 @@ namespace PDFresume
         {
             InitializeComponent();
         }
+
+        private void btnConvert_Click(object sender, EventArgs e)
+        {
+            Personal personal = new Personal()
+            {
+                ID = 101496372181,
+                Name = "Jhan Carlo M. Vasquez",
+                DateofBirth = DateTime.Now,
+                Address = "Rodriguez Rizal"
+            };
+
+        }
     }
 }
