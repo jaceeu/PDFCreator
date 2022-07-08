@@ -1,0 +1,14 @@
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\PDFresume.exe.config
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\PDFresume.exe
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\PDFresume.pdb
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.AssemblyReference.cache
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.SuggestedBindingRedirects.cache
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.Form1.resources
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.Properties.Resources.resources
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.GenerateResource.cache
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.CoreCompileInputs.cache
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.CopyComplete
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.exe
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.pdb

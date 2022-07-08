@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Newtonsoft.Json;
 
 namespace PDFresume
 {
@@ -27,6 +28,8 @@ namespace PDFresume
                 Address = "Rodriguez Rizal"
             };
 
+            string JsonOutput = JsonConvert.SerializeObject(personal);
+            txtBox1.Text = JsonOutput;
         }
     }
 }
