@@ -24,7 +24,13 @@ namespace PDFresume
         {
             Personal personal = new Personal()
             {
-                Name = txtBox1.Text,
+                Contact = txtBox1.Text,
+                Email = txtBox2.Text,
+                Primary = txtBox3.Text,
+                Secondary = txtBox6.Text,
+                Tertiary = txtBox5.Text,
+                Skills = txtBox4.Text,
+                Name = txtBox7.Text,
             };
 
             string JsonOutput = JsonConvert.SerializeObject(personal);
@@ -46,7 +52,32 @@ namespace PDFresume
 
             db.CharacterFormat.FontName = "Verdana";
             db.CharacterFormat.Size = 16;
-            db.Writeln(Personal.Name.ToString());
+            db.Writeln(Personal.Contact.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Email.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Primary.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Secondary.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Tertiary.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Skills.ToString());
             db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
             dc.Save(docPath, new PdfSaveOptions());
             System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(docPath) { UseShellExecute = true });

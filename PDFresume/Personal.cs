@@ -8,10 +8,12 @@ namespace PDFresume
 {
     public class Personal
     {
+        public string Contact { get; set; }
+        public string Email { get; set; }
         public string Name { get; set; }
-        public string Age { get; set; }
-        public string Sex { get; set; }
-        public string DateofBirth { get; set; }
-        public string Address { get; set; }
+        public string Primary { get; set; }
+        public string Secondary { get; set; }
+        public string Tertiary { get; set; }
+        public string Skills { get; set; }
     }
 }
