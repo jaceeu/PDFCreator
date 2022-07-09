@@ -12,3 +12,5 @@ C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.CoreC
 C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.csproj.CopyComplete
 C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.exe
 C:\Users\Carlo\source\repos\PDFresume\PDFresume\obj\Debug\PDFresume.pdb
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\SautinSoft.Document.dll
+C:\Users\Carlo\source\repos\PDFresume\PDFresume\bin\Debug\SautinSoft.Document.xml

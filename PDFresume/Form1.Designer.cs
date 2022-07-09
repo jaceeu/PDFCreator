@@ -48,13 +48,13 @@
             this.txtBox1.Location = new System.Drawing.Point(12, 66);
             this.txtBox1.Multiline = true;
             this.txtBox1.Name = "txtBox1";
-            this.txtBox1.Size = new System.Drawing.Size(441, 209);
+            this.txtBox1.Size = new System.Drawing.Size(526, 529);
             this.txtBox1.TabIndex = 1;
             // 
             // btnConvert
             // 
             this.btnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvert.Location = new System.Drawing.Point(318, 281);
+            this.btnConvert.Location = new System.Drawing.Point(403, 601);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(135, 23);
             this.btnConvert.TabIndex = 2;
@@ -66,7 +66,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(465, 391);
+            this.BackColor = System.Drawing.Color.LightCoral;
+            this.ClientSize = new System.Drawing.Size(550, 636);
             this.Controls.Add(this.btnConvert);
             this.Controls.Add(this.txtBox1);
             this.Controls.Add(this.labl1);

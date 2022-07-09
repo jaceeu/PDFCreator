@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Newtonsoft.Json;
+using System.IO;
+using SautinSoft.Document;
 
 namespace PDFresume
 {
@@ -22,14 +24,32 @@ namespace PDFresume
         {
             Personal personal = new Personal()
             {
-                ID = 101496372181,
-                Name = "Jhan Carlo M. Vasquez",
-                DateofBirth = DateTime.Now,
-                Address = "Rodriguez Rizal"
+                Name = txtBox1.Text,
             };
 
             string JsonOutput = JsonConvert.SerializeObject(personal);
-            txtBox1.Text = JsonOutput;
+            File.WriteAllText(@"C:\Users\Carlo\source\PDF.json",JsonOutput);
+            JsonOutput = String.Empty;
+            JsonOutput = File.ReadAllText(@"C:\Users\Carlo\source\PDF.json");
+            Personal Personal = JsonConvert.DeserializeObject<Personal>(JsonOutput);
+            
+
+            string docPath = @"C:\Users\Carlo\source.pdf";
+
+            // Create a new document and DocumentBuilder.
+            DocumentCore dc = new DocumentCore();
+            DocumentBuilder db = new DocumentBuilder(dc);
+
+            // Set page size A4.
+            Section section = db.Document.Sections[0];
+            section.PageSetup.PaperType = PaperType.A4;
+
+            db.CharacterFormat.FontName = "Verdana";
+            db.CharacterFormat.Size = 16;
+            db.Writeln(Personal.Name.ToString());
+            db.InsertSpecialCharacter(SpecialCharacterType.LineBreak);
+            dc.Save(docPath, new PdfSaveOptions());
+            System.Diagnostics.Process.Start(new System.Diagnostics.ProcessStartInfo(docPath) { UseShellExecute = true });
         }
     }
 }
