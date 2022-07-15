@@ -49,25 +49,25 @@
             // labl1
             // 
             this.labl1.AutoSize = true;
-            this.labl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labl1.Location = new System.Drawing.Point(12, 47);
+            this.labl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labl1.Location = new System.Drawing.Point(12, 18);
             this.labl1.Name = "labl1";
-            this.labl1.Size = new System.Drawing.Size(88, 16);
+            this.labl1.Size = new System.Drawing.Size(152, 29);
             this.labl1.TabIndex = 0;
             this.labl1.Text = "Json Output";
             // 
             // txtBox1
             // 
-            this.txtBox1.Location = new System.Drawing.Point(15, 113);
+            this.txtBox1.Location = new System.Drawing.Point(12, 155);
             this.txtBox1.Multiline = true;
             this.txtBox1.Name = "txtBox1";
-            this.txtBox1.Size = new System.Drawing.Size(283, 128);
+            this.txtBox1.Size = new System.Drawing.Size(283, 37);
             this.txtBox1.TabIndex = 1;
             // 
             // btnConvert
             // 
             this.btnConvert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnConvert.Location = new System.Drawing.Point(901, 553);
+            this.btnConvert.Location = new System.Drawing.Point(719, 409);
             this.btnConvert.Name = "btnConvert";
             this.btnConvert.Size = new System.Drawing.Size(135, 23);
             this.btnConvert.TabIndex = 2;
@@ -77,15 +77,15 @@
             // 
             // txtBox2
             // 
-            this.txtBox2.Location = new System.Drawing.Point(422, 345);
+            this.txtBox2.Location = new System.Drawing.Point(12, 225);
             this.txtBox2.Multiline = true;
             this.txtBox2.Name = "txtBox2";
-            this.txtBox2.Size = new System.Drawing.Size(290, 128);
+            this.txtBox2.Size = new System.Drawing.Size(283, 37);
             this.txtBox2.TabIndex = 3;
             // 
             // txtBox3
             // 
-            this.txtBox3.Location = new System.Drawing.Point(331, 113);
+            this.txtBox3.Location = new System.Drawing.Point(355, 87);
             this.txtBox3.Multiline = true;
             this.txtBox3.Name = "txtBox3";
             this.txtBox3.Size = new System.Drawing.Size(309, 128);
@@ -93,7 +93,7 @@
             // 
             // txtBox4
             // 
-            this.txtBox4.Location = new System.Drawing.Point(699, 113);
+            this.txtBox4.Location = new System.Drawing.Point(719, 244);
             this.txtBox4.Multiline = true;
             this.txtBox4.Name = "txtBox4";
             this.txtBox4.Size = new System.Drawing.Size(271, 128);
@@ -103,7 +103,7 @@
             // 
             this.lbl1.AutoSize = true;
             this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(12, 88);
+            this.lbl1.Location = new System.Drawing.Point(12, 136);
             this.lbl1.Name = "lbl1";
             this.lbl1.Size = new System.Drawing.Size(88, 16);
             this.lbl1.TabIndex = 6;
@@ -113,7 +113,7 @@
             // 
             this.lbl3.AutoSize = true;
             this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(328, 88);
+            this.lbl3.Location = new System.Drawing.Point(352, 68);
             this.lbl3.Name = "lbl3";
             this.lbl3.Size = new System.Drawing.Size(60, 16);
             this.lbl3.TabIndex = 8;
@@ -123,7 +123,7 @@
             // 
             this.lbl4.AutoSize = true;
             this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(708, 88);
+            this.lbl4.Location = new System.Drawing.Point(716, 225);
             this.lbl4.Name = "lbl4";
             this.lbl4.Size = new System.Drawing.Size(45, 16);
             this.lbl4.TabIndex = 9;
@@ -133,7 +133,7 @@
             // 
             this.lbl2.AutoSize = true;
             this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(419, 317);
+            this.lbl2.Location = new System.Drawing.Point(14, 206);
             this.lbl2.Name = "lbl2";
             this.lbl2.Size = new System.Drawing.Size(46, 16);
             this.lbl2.TabIndex = 10;
@@ -141,17 +141,17 @@
             // 
             // txtBox5
             // 
-            this.txtBox5.Location = new System.Drawing.Point(751, 345);
+            this.txtBox5.Location = new System.Drawing.Point(355, 409);
             this.txtBox5.Multiline = true;
             this.txtBox5.Name = "txtBox5";
-            this.txtBox5.Size = new System.Drawing.Size(271, 128);
+            this.txtBox5.Size = new System.Drawing.Size(309, 128);
             this.txtBox5.TabIndex = 11;
             // 
             // lbl5
             // 
             this.lbl5.AutoSize = true;
             this.lbl5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl5.Location = new System.Drawing.Point(748, 326);
+            this.lbl5.Location = new System.Drawing.Point(353, 386);
             this.lbl5.Name = "lbl5";
             this.lbl5.Size = new System.Drawing.Size(61, 16);
             this.lbl5.TabIndex = 12;
@@ -159,17 +159,17 @@
             // 
             // txtBox6
             // 
-            this.txtBox6.Location = new System.Drawing.Point(24, 345);
+            this.txtBox6.Location = new System.Drawing.Point(355, 244);
             this.txtBox6.Multiline = true;
             this.txtBox6.Name = "txtBox6";
-            this.txtBox6.Size = new System.Drawing.Size(290, 128);
+            this.txtBox6.Size = new System.Drawing.Size(309, 128);
             this.txtBox6.TabIndex = 13;
             // 
             // lbl6
             // 
             this.lbl6.AutoSize = true;
             this.lbl6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl6.Location = new System.Drawing.Point(21, 317);
+            this.lbl6.Location = new System.Drawing.Point(352, 225);
             this.lbl6.Name = "lbl6";
             this.lbl6.Size = new System.Drawing.Size(82, 16);
             this.lbl6.TabIndex = 14;
@@ -179,7 +179,7 @@
             // 
             this.lbl7.AutoSize = true;
             this.lbl7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl7.Location = new System.Drawing.Point(21, 504);
+            this.lbl7.Location = new System.Drawing.Point(14, 68);
             this.lbl7.Name = "lbl7";
             this.lbl7.Size = new System.Drawing.Size(48, 16);
             this.lbl7.TabIndex = 15;
@@ -187,10 +187,10 @@
             // 
             // txtBox7
             // 
-            this.txtBox7.Location = new System.Drawing.Point(75, 495);
+            this.txtBox7.Location = new System.Drawing.Point(12, 87);
             this.txtBox7.Multiline = true;
             this.txtBox7.Name = "txtBox7";
-            this.txtBox7.Size = new System.Drawing.Size(290, 128);
+            this.txtBox7.Size = new System.Drawing.Size(283, 37);
             this.txtBox7.TabIndex = 16;
             // 
             // Form1
@@ -198,7 +198,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightCoral;
-            this.ClientSize = new System.Drawing.Size(1082, 635);
+            this.ClientSize = new System.Drawing.Size(1021, 635);
             this.Controls.Add(this.txtBox7);
             this.Controls.Add(this.lbl7);
             this.Controls.Add(this.lbl6);
